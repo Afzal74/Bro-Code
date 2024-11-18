@@ -2,8 +2,8 @@
 // Use Pascal Notation: OneTwoThree
 
 
-function Car(a, moder, year, color){
-    this.make = a;
+function Car(make, moder, year, color){
+    this.make = make;
     this.moder= moder;
     this.year = year;
     this.color = color;
